@@ -1,0 +1,16 @@
+PODS:
+  - BSChatBotClientFramework (0.1.0)
+
+DEPENDENCIES:
+  - BSChatBotClientFramework (from `../`)
+
+EXTERNAL SOURCES:
+  BSChatBotClientFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BSChatBotClientFramework: eba51d7a90dab23ef75db22f512fa58da70cacfe
+
+PODFILE CHECKSUM: 747cb05e9c9afa3673ae389d033dae4de4334382
+
+COCOAPODS: 1.10.0

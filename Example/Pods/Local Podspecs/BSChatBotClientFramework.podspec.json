@@ -1,0 +1,22 @@
+{
+  "name": "BSChatBotClientFramework",
+  "version": "0.1.0",
+  "summary": "A short description of BSChatBotClientFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mahmoud.fathy1337@gmail.com/BSChatBotClientFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mahmoud.fathy1337@gmail.com": "tareksabry444@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/mahmoud.fathy1337@gmail.com/BSChatBotClientFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BSChatBotClientFramework/Classes/**/*"
+}

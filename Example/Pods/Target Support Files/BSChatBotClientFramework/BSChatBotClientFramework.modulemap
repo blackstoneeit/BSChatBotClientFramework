@@ -1,0 +1,6 @@
+framework module BSChatBotClientFramework {
+  umbrella header "BSChatBotClientFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
