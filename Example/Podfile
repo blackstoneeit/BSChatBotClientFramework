@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BSChatBotClientFramework_Tests' do
+  pod 'BSChatBotClientFramework', :path => '../'
+  
+  
+end
