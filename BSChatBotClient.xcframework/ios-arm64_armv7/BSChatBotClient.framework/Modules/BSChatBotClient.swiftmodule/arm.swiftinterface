@@ -98,11 +98,6 @@ public struct Response {
 extension Future where Value == BSChatBotClient.Response {
   public func asVoid() -> BSChatBotClient.Future<Swift.Void>
 }
-extension Array {
-  public subscript(index: Swift.Int, default defaultValue: @autoclosure () -> Element) -> Element {
-    get
-  }
-}
 public struct URLEncoding : BSChatBotClient.ParameterEncoding {
   public enum Destination {
     case methodDependent
@@ -212,6 +207,7 @@ public enum BlackstoneChatBotError : Swift.Error {
   case failedToParseMessage(text: Swift.String)
   case parsingFailed(json: [Swift.String : Any], context: Swift.String)
   case unexpectedJSON(context: Swift.String)
+  case failedToReconnectToConversation(error: Swift.Error)
 }
 public protocol Connector : BSChatBotClient.URLRequestConvertible {
   var baseURL: Foundation.URL { get }
@@ -355,6 +351,7 @@ extension URLRequest {
 }
 public protocol BlackstoneChatBotClientDelegate : AnyObject {
   func clientDidInitiateConversation(_ client: BSChatBotClient.BlackstoneChatBotClient)
+  func clientDidReconnectToConversation(_ client: BSChatBotClient.BlackstoneChatBotClient)
   func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didSendActivity activity: BSChatBotClient.Activity)
   func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didFailWithError error: BSChatBotClient.BlackstoneChatBotError)
 }
@@ -373,6 +370,7 @@ public class BlackstoneChatBotClient {
   weak public var delegate: BSChatBotClient.BlackstoneChatBotClientDelegate?
   public init(parsingEngine: BSChatBotClient.ParsingEngine)
   public func startConversation()
+  public func reconnectToConversation()
   public func send(activity: BSChatBotClient.Activity)
   @objc deinit
 }
