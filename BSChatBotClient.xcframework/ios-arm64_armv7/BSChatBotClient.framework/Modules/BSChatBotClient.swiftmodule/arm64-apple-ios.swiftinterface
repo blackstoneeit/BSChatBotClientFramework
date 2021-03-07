@@ -354,6 +354,7 @@ public protocol BlackstoneChatBotClientDelegate : AnyObject {
   func clientDidReconnectToConversation(_ client: BSChatBotClient.BlackstoneChatBotClient)
   func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didSendActivity activity: BSChatBotClient.Activity)
   func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didFailWithError error: BSChatBotClient.BlackstoneChatBotError)
+  func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didReceiveEvent eventName: Swift.String)
 }
 public class BlackstoneChatBotClient {
   public enum LogLevel {
@@ -372,6 +373,7 @@ public class BlackstoneChatBotClient {
   public func startConversation()
   public func reconnectToConversation()
   public func send(activity: BSChatBotClient.Activity)
+  public func cacheConversationId()
   @objc deinit
 }
 extension BlackstoneChatBotClient : Starscream.WebSocketDelegate {
