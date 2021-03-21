@@ -220,7 +220,7 @@ extension Connector {
   public func asURLRequest() throws -> Foundation.URLRequest
 }
 public protocol ParsingEngine {
-  func parse(json: [Swift.String : Any], forId id: Swift.String)
+  func parse(json: [Swift.String : Any], forId id: Swift.String, watermark: Swift.Int?)
 }
 public struct HTTPHeaders {
   public init()
