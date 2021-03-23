@@ -182,10 +182,10 @@ public struct MimeType : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable
   public typealias RawValue = Swift.String
 }
 public protocol ErrorHandlerProtocol {
-  func handle(response: [Swift.String : Any]) -> Swift.Error?
+  func handle(response: [Swift.String : Any], statusCode: Swift.Int) -> Swift.Error?
 }
 open class ErrorHandler : BSChatBotClient.ErrorHandlerProtocol {
-  public func handle(response: [Swift.String : Any]) -> Swift.Error?
+  public func handle(response: [Swift.String : Any], statusCode: Swift.Int) -> Swift.Error?
   public init()
   @objc deinit
 }
@@ -208,6 +208,8 @@ public enum BlackstoneChatBotError : Swift.Error {
   case parsingFailed(json: [Swift.String : Any], context: Swift.String)
   case unexpectedJSON(context: Swift.String)
   case failedToReconnectToConversation(error: Swift.Error)
+  case failedToRefreshConversationToken(error: Swift.Error)
+  case conversationDoesNotExist
 }
 public protocol Connector : BSChatBotClient.URLRequestConvertible {
   var baseURL: Foundation.URL { get }
