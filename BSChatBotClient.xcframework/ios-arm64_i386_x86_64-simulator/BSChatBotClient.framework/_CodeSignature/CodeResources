@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7+mVF+vDwTqtPkN5AdIg/6zqOYo=
+		zxNe2Ck2Wv1NV0WuyEEhSmbWmew=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		7+mVF+vDwTqtPkN5AdIg/6zqOYo=
+		zxNe2Ck2Wv1NV0WuyEEhSmbWmew=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x6d3bgk7XcscZ7ceWppQXcZi/fU=
+		i6te+vafUy8gDFnpqR2lI2krfOE=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/i386.swiftmodule</key>
 		<data>
-		x6d3bgk7XcscZ7ceWppQXcZi/fU=
+		i6te+vafUy8gDFnpqR2lI2krfOE=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6Du9t7/uiOtcGrnaIpy0AsIgDPs=
+		PYNvtkLkZYsgE3HYVEdeX9HkeFE=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		6Du9t7/uiOtcGrnaIpy0AsIgDPs=
+		PYNvtkLkZYsgE3HYVEdeX9HkeFE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -143,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7+mVF+vDwTqtPkN5AdIg/6zqOYo=
+			zxNe2Ck2Wv1NV0WuyEEhSmbWmew=
 			</data>
 			<key>hash2</key>
 			<data>
-			QC88N5T5x1nnVqAp8Yu2q7n6pbJlA0GEX9D8Aj1YqUQ=
+			IMvXDXcJ0FRIfEQdc4Wx8MY8oyfmOwnVUVUYwJdJGQs=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftdoc</key>
@@ -176,11 +176,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7+mVF+vDwTqtPkN5AdIg/6zqOYo=
+			zxNe2Ck2Wv1NV0WuyEEhSmbWmew=
 			</data>
 			<key>hash2</key>
 			<data>
-			QC88N5T5x1nnVqAp8Yu2q7n6pbJlA0GEX9D8Aj1YqUQ=
+			IMvXDXcJ0FRIfEQdc4Wx8MY8oyfmOwnVUVUYwJdJGQs=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -209,11 +209,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x6d3bgk7XcscZ7ceWppQXcZi/fU=
+			i6te+vafUy8gDFnpqR2lI2krfOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			U7xy41NrColyKbZ0KbK2VMo0FFGHSurhrRHEQH2KioU=
+			2iT4/I8Qur0QG4S3+5+3mabx3MMQM5OzjN0Z8tGFLvk=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/i386.swiftdoc</key>
@@ -242,11 +242,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x6d3bgk7XcscZ7ceWppQXcZi/fU=
+			i6te+vafUy8gDFnpqR2lI2krfOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			U7xy41NrColyKbZ0KbK2VMo0FFGHSurhrRHEQH2KioU=
+			2iT4/I8Qur0QG4S3+5+3mabx3MMQM5OzjN0Z8tGFLvk=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -275,11 +275,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Du9t7/uiOtcGrnaIpy0AsIgDPs=
+			PYNvtkLkZYsgE3HYVEdeX9HkeFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			8eiXnvGZf2wMdeT9KswK9YZw8d8baLa6f/n6QY0qcVA=
+			FtSsu3wFfvPjbWaAmBBEWn9HWb67CIkvl8AoVZpl+Mc=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/x86_64.swiftdoc</key>
@@ -308,11 +308,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Du9t7/uiOtcGrnaIpy0AsIgDPs=
+			PYNvtkLkZYsgE3HYVEdeX9HkeFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			8eiXnvGZf2wMdeT9KswK9YZw8d8baLa6f/n6QY0qcVA=
+			FtSsu3wFfvPjbWaAmBBEWn9HWb67CIkvl8AoVZpl+Mc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
