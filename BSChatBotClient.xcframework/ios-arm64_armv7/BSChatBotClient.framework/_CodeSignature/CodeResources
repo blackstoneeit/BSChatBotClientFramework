@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BSChatBotClient-Swift.h</key>
 		<data>
-		QmOimYjY+DRId2BfscDXc8sHFcQ=
+		Q43IW7CG0y4f0JUxNcttkr3Y1U4=
 		</data>
 		<key>Headers/BSChatBotClient.h</key>
 		<data>
@@ -14,67 +14,67 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UhArHFYJQykyEQHIMJb3yc4X2xI=
+		Sj1QHM1mKk0cqyuQXQW8d+2Jf7M=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm.swiftdoc</key>
 		<data>
-		SyyVYGpDZmLo0lg5optsEQCbfAc=
+		sa6/C6AObtrg8GjnoGRv3bUAsJ8=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm.swiftinterface</key>
 		<data>
-		Dfwa62fYxwCIof6iKk0h3y3vbSQ=
+		9dqFvA/jvEe2l0/rMmcLS38DEhw=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm.swiftmodule</key>
 		<data>
-		RZoU4wXaSqWlQpL7iL9ehTAe4RE=
+		oH0E/qFMZ6++PZCS4YngD2i/ZXE=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		scFBfe1Jb+878TUZolGxAi6+oEA=
+		FIyyLC1iDcabApTuytGSOFJU7Y0=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		mvlCiZmPpVbYPeTpalt2IlmX3GE=
+		r4yuK4dab3oeDmsvGCUUDmjzM+o=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		w+uhrVQsxSh0AnKqFv+SchygdJA=
+		4Jz9682Rhr6crWk2KwGVNNq1fek=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		scFBfe1Jb+878TUZolGxAi6+oEA=
+		FIyyLC1iDcabApTuytGSOFJU7Y0=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		mvlCiZmPpVbYPeTpalt2IlmX3GE=
+		r4yuK4dab3oeDmsvGCUUDmjzM+o=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		w+uhrVQsxSh0AnKqFv+SchygdJA=
+		4Jz9682Rhr6crWk2KwGVNNq1fek=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		SyyVYGpDZmLo0lg5optsEQCbfAc=
+		sa6/C6AObtrg8GjnoGRv3bUAsJ8=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		Dfwa62fYxwCIof6iKk0h3y3vbSQ=
+		9dqFvA/jvEe2l0/rMmcLS38DEhw=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		RZoU4wXaSqWlQpL7iL9ehTAe4RE=
+		oH0E/qFMZ6++PZCS4YngD2i/ZXE=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		SyyVYGpDZmLo0lg5optsEQCbfAc=
+		sa6/C6AObtrg8GjnoGRv3bUAsJ8=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7.swiftinterface</key>
 		<data>
-		Dfwa62fYxwCIof6iKk0h3y3vbSQ=
+		9dqFvA/jvEe2l0/rMmcLS38DEhw=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		RZoU4wXaSqWlQpL7iL9ehTAe4RE=
+		oH0E/qFMZ6++PZCS4YngD2i/ZXE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,11 +87,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QmOimYjY+DRId2BfscDXc8sHFcQ=
+			Q43IW7CG0y4f0JUxNcttkr3Y1U4=
 			</data>
 			<key>hash2</key>
 			<data>
-			WinJ8A9FUevhG9aaEqZ2DcKGumv2IQSxCrUTf7NedOU=
+			Rmsy1gT1RspMpNHvBXmGG5ATibT1Hxrmpvd/68MCsdU=
 			</data>
 		</dict>
 		<key>Headers/BSChatBotClient.h</key>
@@ -109,165 +109,165 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SyyVYGpDZmLo0lg5optsEQCbfAc=
+			sa6/C6AObtrg8GjnoGRv3bUAsJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			+JBMxTqGM1rMUZR2ey0QK0Yi4V3x9o8BjyidftQSdvE=
+			o74FVNpvtP2xG7AthefHGTbitP3Y1ISCAKHO5S+XVzY=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/arm.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Dfwa62fYxwCIof6iKk0h3y3vbSQ=
+			9dqFvA/jvEe2l0/rMmcLS38DEhw=
 			</data>
 			<key>hash2</key>
 			<data>
-			B6w674ROjeVx87lf9fVQBZ5VHRoRBxH/aRNAVpyf8nQ=
+			d1pKOjAXKikAzJ1vUXFBY453an+mNviyjNDYDwyw0hI=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RZoU4wXaSqWlQpL7iL9ehTAe4RE=
+			oH0E/qFMZ6++PZCS4YngD2i/ZXE=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ABifAQJfUPMbCT02HIju5uxIigBGALQ//bKtntREIs=
+			Lyh2UfDVUcjmbeUD3bzg//67XE7f3gcFhMZkcMAt3hM=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			scFBfe1Jb+878TUZolGxAi6+oEA=
+			FIyyLC1iDcabApTuytGSOFJU7Y0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RqYP+Y3mRQHSmyWOUac9CYDCbX2JFrlSvEJBaCH5/ew=
+			yKgxuQ+OJE+1CehGkKphUKSGA0T+gtpXVn4ldQJQ5b0=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mvlCiZmPpVbYPeTpalt2IlmX3GE=
+			r4yuK4dab3oeDmsvGCUUDmjzM+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			eZ/WlODE3MTgGKvSjJ2pw9wKp/l9HU2UwVoQO2Yy6ZQ=
+			cZZAf5s/ZteRD3mqe0IEZ14o4ZbJIPcmshLH3QgUObk=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w+uhrVQsxSh0AnKqFv+SchygdJA=
+			4Jz9682Rhr6crWk2KwGVNNq1fek=
 			</data>
 			<key>hash2</key>
 			<data>
-			zNg4g7bxKBFneZAakW40Qa7yyvOTdcHVed50UfuyeSY=
+			bF7clbUiwm3Pidm605R3z7M7VOHofxeNhApoQIA88pg=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			scFBfe1Jb+878TUZolGxAi6+oEA=
+			FIyyLC1iDcabApTuytGSOFJU7Y0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RqYP+Y3mRQHSmyWOUac9CYDCbX2JFrlSvEJBaCH5/ew=
+			yKgxuQ+OJE+1CehGkKphUKSGA0T+gtpXVn4ldQJQ5b0=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mvlCiZmPpVbYPeTpalt2IlmX3GE=
+			r4yuK4dab3oeDmsvGCUUDmjzM+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			eZ/WlODE3MTgGKvSjJ2pw9wKp/l9HU2UwVoQO2Yy6ZQ=
+			cZZAf5s/ZteRD3mqe0IEZ14o4ZbJIPcmshLH3QgUObk=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w+uhrVQsxSh0AnKqFv+SchygdJA=
+			4Jz9682Rhr6crWk2KwGVNNq1fek=
 			</data>
 			<key>hash2</key>
 			<data>
-			zNg4g7bxKBFneZAakW40Qa7yyvOTdcHVed50UfuyeSY=
+			bF7clbUiwm3Pidm605R3z7M7VOHofxeNhApoQIA88pg=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SyyVYGpDZmLo0lg5optsEQCbfAc=
+			sa6/C6AObtrg8GjnoGRv3bUAsJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			+JBMxTqGM1rMUZR2ey0QK0Yi4V3x9o8BjyidftQSdvE=
+			o74FVNpvtP2xG7AthefHGTbitP3Y1ISCAKHO5S+XVzY=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Dfwa62fYxwCIof6iKk0h3y3vbSQ=
+			9dqFvA/jvEe2l0/rMmcLS38DEhw=
 			</data>
 			<key>hash2</key>
 			<data>
-			B6w674ROjeVx87lf9fVQBZ5VHRoRBxH/aRNAVpyf8nQ=
+			d1pKOjAXKikAzJ1vUXFBY453an+mNviyjNDYDwyw0hI=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RZoU4wXaSqWlQpL7iL9ehTAe4RE=
+			oH0E/qFMZ6++PZCS4YngD2i/ZXE=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ABifAQJfUPMbCT02HIju5uxIigBGALQ//bKtntREIs=
+			Lyh2UfDVUcjmbeUD3bzg//67XE7f3gcFhMZkcMAt3hM=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SyyVYGpDZmLo0lg5optsEQCbfAc=
+			sa6/C6AObtrg8GjnoGRv3bUAsJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			+JBMxTqGM1rMUZR2ey0QK0Yi4V3x9o8BjyidftQSdvE=
+			o74FVNpvtP2xG7AthefHGTbitP3Y1ISCAKHO5S+XVzY=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Dfwa62fYxwCIof6iKk0h3y3vbSQ=
+			9dqFvA/jvEe2l0/rMmcLS38DEhw=
 			</data>
 			<key>hash2</key>
 			<data>
-			B6w674ROjeVx87lf9fVQBZ5VHRoRBxH/aRNAVpyf8nQ=
+			d1pKOjAXKikAzJ1vUXFBY453an+mNviyjNDYDwyw0hI=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RZoU4wXaSqWlQpL7iL9ehTAe4RE=
+			oH0E/qFMZ6++PZCS4YngD2i/ZXE=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ABifAQJfUPMbCT02HIju5uxIigBGALQ//bKtntREIs=
+			Lyh2UfDVUcjmbeUD3bzg//67XE7f3gcFhMZkcMAt3hM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
