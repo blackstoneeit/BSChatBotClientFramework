@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BSChatBotClientFramework'
-  s.version          = '1.2.0'
+  s.version          = '1.3.0'
   s.summary          = 'BSChatBotClientFramework'
   s.swift_version    = '5.0'
   s.description      = <<-DESC
   BSChatBotClientFramework that communicates with DirectLine
                        DESC
 
-  s.homepage         = 'https://github.com/tareksabry1337/BSChatBotClientFramework'
+  s.homepage         = 'https://github.com/blackstoneeit/BSChatBotClientFramework'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Tarek Sabry' => 'tareqs@blackstoneeit.com' }
-  s.source           = { :http => 'https://github.com/tareksabry1337/BSChatBotClientFramework/releases/download/1.2.0/BSChatBotClient.zip' }
+  s.author           = { 'Blackstone eIT' => 'sales@blackstoneeit.com' }
+  s.source           = { :http => 'https://github.com/blackstoneeit/BSChatBotClientFramework/releases/download/1.3.0/BSChatBotClient.zip' }
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'BSChatBotClient.xcframework'
   
