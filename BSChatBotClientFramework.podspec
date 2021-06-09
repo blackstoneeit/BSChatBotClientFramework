@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/blackstoneeit/BSChatBotClientFramework'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Blackstone eIT' => 'sales@blackstoneeit.com' }
   s.source           = { :http => 'https://github.com/blackstoneeit/BSChatBotClientFramework/releases/download/1.3.0/BSChatBotClient.zip' }
   s.ios.deployment_target = '10.0'
