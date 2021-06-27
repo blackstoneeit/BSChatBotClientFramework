@@ -373,6 +373,8 @@ public class BlackstoneChatBotClient {
   public static func configure(withAccessToken accessToken: Swift.String)
   weak public var delegate: BSChatBotClient.BlackstoneChatBotClientDelegate?
   public init(parsingEngine: BSChatBotClient.ParsingEngine)
+  public func disconnect()
+  public func reconnectToWebSocket()
   public func startConversation()
   public func reconnectToConversation()
   public func send(activity: BSChatBotClient.Activity)

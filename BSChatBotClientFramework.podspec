@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BSChatBotClientFramework'
-  s.version          = '1.3.0'
+  s.version          = '1.3.1'
   s.summary          = 'BSChatBotClientFramework'
   s.swift_version    = '5.0'
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/blackstoneeit/BSChatBotClientFramework'
   s.author           = { 'Blackstone eIT' => 'sales@blackstoneeit.com' }
-  s.source           = { :http => 'https://github.com/blackstoneeit/BSChatBotClientFramework/releases/download/1.3.0/BSChatBotClient.zip' }
+  s.source           = { :http => 'https://github.com/blackstoneeit/BSChatBotClientFramework/releases/download/1.3.1/BSChatBotClient.zip' }
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'BSChatBotClient.xcframework'
   
