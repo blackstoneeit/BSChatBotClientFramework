@@ -56,6 +56,7 @@ public struct ConnectResponse {
 }
 extension Dictionary {
   public func valueForKeyPath(keyPath: Swift.String) -> Swift.AnyObject?
+  public func toData() -> Foundation.Data?
 }
 extension URLRequest {
   public var headers: BSChatBotClient.HTTPHeaders {
