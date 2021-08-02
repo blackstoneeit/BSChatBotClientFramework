@@ -56,6 +56,7 @@ public struct ConnectResponse {
 }
 extension Dictionary {
   public func valueForKeyPath(keyPath: Swift.String) -> Swift.AnyObject?
+  public func toData() -> Foundation.Data?
 }
 extension URLRequest {
   public var headers: BSChatBotClient.HTTPHeaders {
@@ -357,8 +358,6 @@ public protocol BlackstoneChatBotClientDelegate : AnyObject {
   func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didSendActivity activity: BSChatBotClient.Activity)
   func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didFailWithError error: BSChatBotClient.BlackstoneChatBotError)
   func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didReceiveEvent eventName: Swift.String)
-  func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didDisconnectWithReason reason: Swift.String, andCloseCode closeCode: Swift.UInt16)
-  func clientDidCancelConnection(_ client: BSChatBotClient.BlackstoneChatBotClient)
   func clientDidStartReconnection(_ client: BSChatBotClient.BlackstoneChatBotClient)
 }
 public class BlackstoneChatBotClient {
