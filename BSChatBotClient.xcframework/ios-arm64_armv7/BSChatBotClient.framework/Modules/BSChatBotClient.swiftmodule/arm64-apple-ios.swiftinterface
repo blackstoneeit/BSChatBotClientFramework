@@ -357,7 +357,7 @@ public protocol BlackstoneChatBotClientDelegate : AnyObject {
   func clientDidReconnectToConversation(_ client: BSChatBotClient.BlackstoneChatBotClient)
   func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didSendActivity activity: BSChatBotClient.Activity)
   func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didFailWithError error: BSChatBotClient.BlackstoneChatBotError)
-  func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didReceiveEvent eventName: Swift.String)
+  func client(_ client: BSChatBotClient.BlackstoneChatBotClient, didReceiveEvent eventName: Swift.String, watermark: Swift.Int?)
   func clientDidStartReconnection(_ client: BSChatBotClient.BlackstoneChatBotClient)
 }
 public class BlackstoneChatBotClient {
