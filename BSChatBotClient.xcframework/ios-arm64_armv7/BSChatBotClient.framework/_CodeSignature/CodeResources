@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm.swiftmodule</key>
 		<data>
-		+kNr5FEBUhDcoriMgLuA0r3VL88=
+		FR4/REf7Oid53Y1bnJwpJL6BlB0=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		dhnacHpvYu88nDKxANZjaMvKUKI=
+		43qxemxAGINgzT7mslbyzbGoQ1g=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		dhnacHpvYu88nDKxANZjaMvKUKI=
+		43qxemxAGINgzT7mslbyzbGoQ1g=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		+kNr5FEBUhDcoriMgLuA0r3VL88=
+		FR4/REf7Oid53Y1bnJwpJL6BlB0=
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		+kNr5FEBUhDcoriMgLuA0r3VL88=
+		FR4/REf7Oid53Y1bnJwpJL6BlB0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -131,11 +131,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+kNr5FEBUhDcoriMgLuA0r3VL88=
+			FR4/REf7Oid53Y1bnJwpJL6BlB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			L48MUbdUQGu1vZm8p6wa0wa4SL/TEfxq02LZ8JcZcNo=
+			JA4GHVu8NZgrWVxUUIvzzqMukPZIEpuvRGngZ/QFGmM=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -164,11 +164,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dhnacHpvYu88nDKxANZjaMvKUKI=
+			43qxemxAGINgzT7mslbyzbGoQ1g=
 			</data>
 			<key>hash2</key>
 			<data>
-			nLg5wNfFfK+bkwpbPu6PRByG42oYobp96tynMIH0wDo=
+			K2hc4Og2T9b15GjeuvFwFhYcuXczfBp+E2/X7/wx4sI=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/arm64.swiftdoc</key>
@@ -197,11 +197,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dhnacHpvYu88nDKxANZjaMvKUKI=
+			43qxemxAGINgzT7mslbyzbGoQ1g=
 			</data>
 			<key>hash2</key>
 			<data>
-			nLg5wNfFfK+bkwpbPu6PRByG42oYobp96tynMIH0wDo=
+			K2hc4Og2T9b15GjeuvFwFhYcuXczfBp+E2/X7/wx4sI=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -230,11 +230,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+kNr5FEBUhDcoriMgLuA0r3VL88=
+			FR4/REf7Oid53Y1bnJwpJL6BlB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			L48MUbdUQGu1vZm8p6wa0wa4SL/TEfxq02LZ8JcZcNo=
+			JA4GHVu8NZgrWVxUUIvzzqMukPZIEpuvRGngZ/QFGmM=
 			</data>
 		</dict>
 		<key>Modules/BSChatBotClient.swiftmodule/armv7.swiftdoc</key>
@@ -263,11 +263,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+kNr5FEBUhDcoriMgLuA0r3VL88=
+			FR4/REf7Oid53Y1bnJwpJL6BlB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			L48MUbdUQGu1vZm8p6wa0wa4SL/TEfxq02LZ8JcZcNo=
+			JA4GHVu8NZgrWVxUUIvzzqMukPZIEpuvRGngZ/QFGmM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
