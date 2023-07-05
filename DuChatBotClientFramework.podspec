@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DuChatBotClientFramework'
-  s.version          = '2.0.8'
+  s.version          = '2.0.9'
   s.summary          = 'BSChatBotClientFramework'
   #s.swift_version    = '5.0'
   s.description      = <<-DESC
