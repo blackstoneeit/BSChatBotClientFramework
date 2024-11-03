@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DuChatBotClientFramework'
-  s.version          = '2.0.9'
-  s.summary          = 'BSChatBotClientFramework'
+  s.version          = '2.0.10'
+  s.summary          = 'DuChatBotClientFramework'
   #s.swift_version    = '5.0'
   s.description      = <<-DESC
   BSChatBotClientFramework that communicates with DirectLine
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/blackstoneeit/BSChatBotClientFramework'
   s.license          = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author           = { 'Blackstone eIT' => 'sales@blackstoneeit.com' }
-  s.source           = { :git => 'https://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@github.com/blackstoneeit/BSChatBotClientFramework.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://github.com/blackstoneeit/BSChatBotClientFramework/releases/download/2.0.9/BSChatBotClient.zip', }
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'BSChatBotClient.xcframework'
   

@@ -1,7 +1,7 @@
 framework module BSChatBotClient {
   umbrella header "BSChatBotClient.h"
-
   export *
+
   module * { export * }
 }
 

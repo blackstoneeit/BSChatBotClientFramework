@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "BSChatBotClient",
+    "printedName": "BSChatBotClient",
     "children": [
       {
         "kind": "Import",
@@ -44,6 +44,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -241,7 +257,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "URLRequestConvertible",
-                "printedName": "BSChatBotClient.URLRequestConvertible",
+                "printedName": "any BSChatBotClient.URLRequestConvertible",
                 "usr": "s:15BSChatBotClient21URLRequestConvertibleP"
               },
               {
@@ -296,7 +312,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "URLRequestConvertible",
-                "printedName": "BSChatBotClient.URLRequestConvertible",
+                "printedName": "any BSChatBotClient.URLRequestConvertible",
                 "usr": "s:15BSChatBotClient21URLRequestConvertibleP"
               },
               {
@@ -333,6 +349,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "ParameterEncoding",
@@ -413,7 +443,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "URLRequestConvertible",
-                "printedName": "BSChatBotClient.URLRequestConvertible",
+                "printedName": "any BSChatBotClient.URLRequestConvertible",
                 "usr": "s:15BSChatBotClient21URLRequestConvertibleP"
               },
               {
@@ -463,6 +493,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "ParameterEncoding",
@@ -587,7 +631,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -617,6 +661,22 @@
         "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "BSChatBotClient.Future<τ_0_0>"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -852,12 +912,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -883,12 +943,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -911,6 +971,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -971,7 +1047,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<τ_0_0, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<τ_0_0, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -981,7 +1057,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<τ_0_0, Swift.Error>",
+                    "printedName": "Swift.Result<τ_0_0, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -991,7 +1067,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1409,7 +1485,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1616,6 +1708,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1688,6 +1796,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1927,6 +2051,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2177,6 +2317,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2377,6 +2531,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2575,6 +2743,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -2905,7 +3087,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "URLRequestConvertible",
-                "printedName": "BSChatBotClient.URLRequestConvertible",
+                "printedName": "any BSChatBotClient.URLRequestConvertible",
                 "usr": "s:15BSChatBotClient21URLRequestConvertibleP"
               },
               {
@@ -3037,6 +3219,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ParameterEncoding",
             "printedName": "ParameterEncoding",
             "usr": "s:15BSChatBotClient17ParameterEncodingP",
@@ -3149,6 +3345,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3376,12 +3588,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(BSChatBotClient.Parameter.Type) -> (Swift.Encodable, Foundation.JSONEncoder, BSChatBotClient.ParameterEncoding) -> BSChatBotClient.Parameter",
+                "printedName": "(BSChatBotClient.Parameter.Type) -> (any Swift.Encodable, Foundation.JSONEncoder, any BSChatBotClient.ParameterEncoding) -> BSChatBotClient.Parameter",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Encodable, Foundation.JSONEncoder, BSChatBotClient.ParameterEncoding) -> BSChatBotClient.Parameter",
+                    "printedName": "(any Swift.Encodable, Foundation.JSONEncoder, any BSChatBotClient.ParameterEncoding) -> BSChatBotClient.Parameter",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3392,12 +3604,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Encodable, encoder: Foundation.JSONEncoder, encoding: BSChatBotClient.ParameterEncoding)",
+                        "printedName": "(any Swift.Encodable, encoder: Foundation.JSONEncoder, encoding: any BSChatBotClient.ParameterEncoding)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Encodable",
-                            "printedName": "Swift.Encodable",
+                            "printedName": "any Swift.Encodable",
                             "usr": "s:SE"
                           },
                           {
@@ -3409,7 +3621,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "ParameterEncoding",
-                            "printedName": "BSChatBotClient.ParameterEncoding",
+                            "printedName": "any BSChatBotClient.ParameterEncoding",
                             "usr": "s:15BSChatBotClient17ParameterEncodingP"
                           }
                         ]
@@ -3445,12 +3657,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(BSChatBotClient.Parameter.Type) -> (Swift.Encodable, Foundation.JSONEncoder) -> BSChatBotClient.Parameter",
+                "printedName": "(BSChatBotClient.Parameter.Type) -> (any Swift.Encodable, Foundation.JSONEncoder) -> BSChatBotClient.Parameter",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Encodable, Foundation.JSONEncoder) -> BSChatBotClient.Parameter",
+                    "printedName": "(any Swift.Encodable, Foundation.JSONEncoder) -> BSChatBotClient.Parameter",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3461,12 +3673,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Encodable, encoder: Foundation.JSONEncoder)",
+                        "printedName": "(any Swift.Encodable, encoder: Foundation.JSONEncoder)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Encodable",
-                            "printedName": "Swift.Encodable",
+                            "printedName": "any Swift.Encodable",
                             "usr": "s:SE"
                           },
                           {
@@ -3507,6 +3719,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3680,6 +3908,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3779,6 +4023,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "RawRepresentable",
             "printedName": "RawRepresentable",
             "children": [
@@ -3838,12 +4096,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -3892,6 +4150,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3907,12 +4181,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -3984,6 +4258,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "ErrorHandlerProtocol",
@@ -4158,7 +4446,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ErrorHandlerProtocol",
-                "printedName": "BSChatBotClient.ErrorHandlerProtocol",
+                "printedName": "any BSChatBotClient.ErrorHandlerProtocol",
                 "hasDefaultArg": true,
                 "usr": "s:15BSChatBotClient20ErrorHandlerProtocolP"
               }
@@ -4194,7 +4482,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Connector",
-                "printedName": "BSChatBotClient.Connector",
+                "printedName": "any BSChatBotClient.Connector",
                 "usr": "s:15BSChatBotClient9ConnectorP"
               },
               {
@@ -4244,6 +4532,22 @@
         "declAttributes": [
           "Final",
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4319,6 +4623,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4344,12 +4664,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(BSChatBotClient.BlackstoneChatBotError.Type) -> (Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
+                "printedName": "(BSChatBotClient.BlackstoneChatBotError.Type) -> (any Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
+                    "printedName": "(any Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4360,12 +4680,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(error: Swift.Error)",
+                        "printedName": "(error: any Swift.Error)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -4401,12 +4721,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(BSChatBotClient.BlackstoneChatBotError.Type) -> (Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
+                "printedName": "(BSChatBotClient.BlackstoneChatBotError.Type) -> (any Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
+                    "printedName": "(any Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4417,12 +4737,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(error: Swift.Error)",
+                        "printedName": "(error: any Swift.Error)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -4648,12 +4968,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(BSChatBotClient.BlackstoneChatBotError.Type) -> (Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
+                "printedName": "(BSChatBotClient.BlackstoneChatBotError.Type) -> (any Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
+                    "printedName": "(any Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4664,12 +4984,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(error: Swift.Error)",
+                        "printedName": "(error: any Swift.Error)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -4705,12 +5025,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(BSChatBotClient.BlackstoneChatBotError.Type) -> (Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
+                "printedName": "(BSChatBotClient.BlackstoneChatBotError.Type) -> (any Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
+                    "printedName": "(any Swift.Error) -> BSChatBotClient.BlackstoneChatBotError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4721,12 +5041,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(error: Swift.Error)",
+                        "printedName": "(error: any Swift.Error)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -4800,6 +5120,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -5092,6 +5426,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "URLRequestConvertible",
             "printedName": "URLRequestConvertible",
             "usr": "s:15BSChatBotClient21URLRequestConvertibleP",
@@ -5201,6 +5549,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6125,6 +6489,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "ExpressibleByDictionaryLiteral",
@@ -7066,6 +7444,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -7411,6 +7803,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Connector",
             "printedName": "Connector",
             "usr": "s:15BSChatBotClient9ConnectorP",
@@ -7730,6 +8136,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -8273,6 +8693,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "RawRepresentable",
             "printedName": "RawRepresentable",
             "children": [
@@ -8534,6 +8968,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8727,6 +9177,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -8877,7 +9341,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "BSChatBotClient.BlackstoneChatBotClientDelegate?"
+                "printedName": "(any BSChatBotClient.BlackstoneChatBotClientDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -8901,12 +9365,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "BSChatBotClient.BlackstoneChatBotClientDelegate?",
+                    "printedName": "(any BSChatBotClient.BlackstoneChatBotClientDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "BlackstoneChatBotClientDelegate",
-                        "printedName": "BSChatBotClient.BlackstoneChatBotClientDelegate",
+                        "printedName": "any BSChatBotClient.BlackstoneChatBotClientDelegate",
                         "usr": "s:15BSChatBotClient014BlackstoneChatbC8DelegateP"
                       }
                     ],
@@ -8933,12 +9397,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "BSChatBotClient.BlackstoneChatBotClientDelegate?",
+                    "printedName": "(any BSChatBotClient.BlackstoneChatBotClientDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "BlackstoneChatBotClientDelegate",
-                        "printedName": "BSChatBotClient.BlackstoneChatBotClientDelegate",
+                        "printedName": "any BSChatBotClient.BlackstoneChatBotClientDelegate",
                         "usr": "s:15BSChatBotClient014BlackstoneChatbC8DelegateP"
                       }
                     ],
@@ -8986,7 +9450,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ParsingEngine",
-                "printedName": "BSChatBotClient.ParsingEngine",
+                "printedName": "any BSChatBotClient.ParsingEngine",
                 "usr": "s:15BSChatBotClient13ParsingEngineP"
               }
             ],
@@ -9169,6 +9633,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "WebSocketDelegate",
             "printedName": "WebSocketDelegate",
             "usr": "s:10Starscream17WebSocketDelegateP",
@@ -9205,7 +9683,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "URLRequestConvertible",
-                "printedName": "BSChatBotClient.URLRequestConvertible",
+                "printedName": "any BSChatBotClient.URLRequestConvertible",
                 "usr": "s:15BSChatBotClient21URLRequestConvertibleP"
               },
               {
@@ -9254,6 +9732,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -9312,7 +9806,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9335,6 +9829,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -9538,6 +10046,22 @@
         "moduleName": "BSChatBotClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -9602,7 +10126,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9658,6 +10182,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -9746,6 +10284,16 @@
         "usr": "s:10Foundation12CharacterSetV",
         "mangledName": "$s10Foundation12CharacterSetV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
           {
@@ -9827,6 +10375,20 @@
             ],
             "usr": "s:s25ExpressibleByArrayLiteralP",
             "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -9987,7 +10549,23 @@
         "usr": "s:SE",
         "mangledName": "$sSE",
         "moduleName": "Swift",
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -10065,16 +10643,24 @@
         "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
         "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -10296,6 +10882,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -10452,6 +11045,16 @@
                 "mangledName": "$s10Foundation10URLRequestV15BSChatBotClientE7headersAD11HTTPHeadersVvM",
                 "moduleName": "BSChatBotClient",
                 "implicit": true,
+                "intro_Macosx": "10.10",
+                "intro_iOS": "8.0",
+                "intro_tvOS": "9.0",
+                "intro_watchOS": "2.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "isFromExtension": true,
                 "accessorKind": "_modify"
               }
@@ -10607,6 +11210,16 @@
                 "mangledName": "$s10Foundation10URLRequestV15BSChatBotClientE6methodAD10HTTPMethodVSgvM",
                 "moduleName": "BSChatBotClient",
                 "implicit": true,
+                "intro_Macosx": "10.10",
+                "intro_iOS": "8.0",
+                "intro_tvOS": "9.0",
+                "intro_watchOS": "2.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
                 "isFromExtension": true,
                 "accessorKind": "_modify"
               }
@@ -10617,6 +11230,16 @@
         "usr": "s:10Foundation10URLRequestV",
         "mangledName": "$s10Foundation10URLRequestV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
           {
@@ -10661,6 +11284,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -10791,6 +11428,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -11015,8 +11666,32 @@
         "mangledName": "$s10Foundation11JSONDecoderC",
         "moduleName": "Foundation",
         "isOpen": true,
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "TopLevelDecoder",
@@ -11093,13 +11768,6 @@
       "offset": 1505,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/BSChatBotClient\/Network\/SwiftConnect\/Core\/Promise.swift",
-      "kind": "StringLiteral",
-      "offset": 1184,
-      "length": 7,
-      "value": "\"BSChatBotClient.Promise\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/BSChatBotClient\/Network\/SwiftConnect\/Transformers\/CodableTransformer.swift",
@@ -11422,20 +12090,6 @@
       "offset": 1485,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/BSChatBotClient\/Model\/Conversation.swift",
-      "kind": "StringLiteral",
-      "offset": 280,
-      "length": 11,
-      "value": "\"streamUrl\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/BSChatBotClient\/Model\/Conversation.swift",
-      "kind": "StringLiteral",
-      "offset": 310,
-      "length": 16,
-      "value": "\"conversationId\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/BSChatBotClient\/Model\/Conversation.swift",

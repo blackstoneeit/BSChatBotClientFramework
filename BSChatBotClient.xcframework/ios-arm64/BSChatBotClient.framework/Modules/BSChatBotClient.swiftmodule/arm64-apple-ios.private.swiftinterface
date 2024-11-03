@@ -1,13 +1,14 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BSChatBotClient
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name BSChatBotClient
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 @_exported import BSChatBotClient
 import Foundation
 import Starscream
 import Swift
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 extension Foundation.CharacterSet {
   public static let connectURLQueryAllowed: Foundation.CharacterSet
 }
@@ -26,19 +27,19 @@ public struct JSONEncoding : BSChatBotClient.ParameterEncoding {
   }
   public let options: Foundation.JSONSerialization.WritingOptions
   public init(options: Foundation.JSONSerialization.WritingOptions = [])
-  public func encode(_ urlRequest: BSChatBotClient.URLRequestConvertible, with parameters: [Swift.String : Any]?) throws -> Foundation.URLRequest
-  public func encode(_ urlRequest: BSChatBotClient.URLRequestConvertible, withJSONObject jsonObject: Any? = nil) throws -> Foundation.URLRequest
+  public func encode(_ urlRequest: any BSChatBotClient.URLRequestConvertible, with parameters: [Swift.String : Any]?) throws -> Foundation.URLRequest
+  public func encode(_ urlRequest: any BSChatBotClient.URLRequestConvertible, withJSONObject jsonObject: Any? = nil) throws -> Foundation.URLRequest
 }
 public struct PathEncoding : BSChatBotClient.ParameterEncoding {
   public static var `default`: BSChatBotClient.PathEncoding {
     get
   }
-  public func encode(_ urlRequest: BSChatBotClient.URLRequestConvertible, with parameters: [Swift.String : Any]?) throws -> Foundation.URLRequest
+  public func encode(_ urlRequest: any BSChatBotClient.URLRequestConvertible, with parameters: [Swift.String : Any]?) throws -> Foundation.URLRequest
 }
 @_hasMissingDesignatedInitializers open class Promise<Value> : BSChatBotClient.Future<Value> {
   public init(value: Value? = nil, requestIdentifier: Swift.String)
   public func resolve(with value: Value)
-  public func reject(with error: Swift.Error)
+  public func reject(with error: any Swift.Error)
   @objc deinit
 }
 extension BSChatBotClient.Future where Value == BSChatBotClient.Response {
@@ -55,7 +56,7 @@ public struct ConnectResponse {
   public let request: Foundation.URLRequest?
   public let response: Foundation.HTTPURLResponse?
   public let data: Foundation.Data?
-  public let error: Swift.Error?
+  public let error: (any Swift.Error)?
 }
 extension Swift.Dictionary {
   public func valueForKeyPath(keyPath: Swift.String) -> Swift.AnyObject?
@@ -71,7 +72,7 @@ extension Foundation.URLRequest {
   public func cURLDescription() -> Swift.String
 }
 @_hasMissingDesignatedInitializers open class Future<Value> {
-  public func observe(with callback: @escaping (Swift.Result<Value, Swift.Error>) -> Swift.Void)
+  public func observe(with callback: @escaping (Swift.Result<Value, any Swift.Error>) -> Swift.Void)
   @objc deinit
 }
 extension BSChatBotClient.Future {
@@ -144,7 +145,7 @@ public struct URLEncoding : BSChatBotClient.ParameterEncoding {
   public let arrayEncoding: BSChatBotClient.URLEncoding.ArrayEncoding
   public let boolEncoding: BSChatBotClient.URLEncoding.BoolEncoding
   public init(destination: BSChatBotClient.URLEncoding.Destination = .methodDependent, arrayEncoding: BSChatBotClient.URLEncoding.ArrayEncoding = .brackets, boolEncoding: BSChatBotClient.URLEncoding.BoolEncoding = .numeric)
-  public func encode(_ urlRequest: BSChatBotClient.URLRequestConvertible, with parameters: [Swift.String : Any]?) throws -> Foundation.URLRequest
+  public func encode(_ urlRequest: any BSChatBotClient.URLRequestConvertible, with parameters: [Swift.String : Any]?) throws -> Foundation.URLRequest
   public func queryComponents(fromKey key: Swift.String, value: Any) -> [(Swift.String, Swift.String)]
   public func escape(_ string: Swift.String) -> Swift.String
 }
@@ -172,8 +173,8 @@ public enum Parameter {
   case query(key: Swift.String, value: Any)
   case path(key: Swift.String, value: Any)
   case data(_: Foundation.Data?)
-  case object(_: Swift.Encodable, encoder: Foundation.JSONEncoder = JSONEncoder(), encoding: BSChatBotClient.ParameterEncoding)
-  case array(_: Swift.Encodable, encoder: Foundation.JSONEncoder = JSONEncoder())
+  case object(_: any Swift.Encodable, encoder: Foundation.JSONEncoder = JSONEncoder(), encoding: any BSChatBotClient.ParameterEncoding)
+  case array(_: any Swift.Encodable, encoder: Foundation.JSONEncoder = JSONEncoder())
 }
 public enum Parameters {
   case none
@@ -186,18 +187,18 @@ public struct MimeType : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable
   public typealias RawValue = Swift.String
 }
 public protocol ErrorHandlerProtocol {
-  func handle(response: [Swift.String : Any], statusCode: Swift.Int) -> Swift.Error?
+  func handle(response: [Swift.String : Any], statusCode: Swift.Int) -> (any Swift.Error)?
 }
 open class ErrorHandler : BSChatBotClient.ErrorHandlerProtocol {
-  public func handle(response: [Swift.String : Any], statusCode: Swift.Int) -> Swift.Error?
+  public func handle(response: [Swift.String : Any], statusCode: Swift.Int) -> (any Swift.Error)?
   public init()
   @objc deinit
 }
 final public class Connect {
   public static let `default`: BSChatBotClient.Connect
   final public var isLoggingEnabled: Swift.Bool
-  public init(errorHandler: BSChatBotClient.ErrorHandlerProtocol = ErrorHandler())
-  final public func request(_ request: BSChatBotClient.Connector, debugResponse: Swift.Bool = false) -> BSChatBotClient.Future<BSChatBotClient.Response>
+  public init(errorHandler: any BSChatBotClient.ErrorHandlerProtocol = ErrorHandler())
+  final public func request(_ request: any BSChatBotClient.Connector, debugResponse: Swift.Bool = false) -> BSChatBotClient.Future<BSChatBotClient.Response>
   final public func cancelAllRequests()
   @objc deinit
 }
@@ -206,13 +207,13 @@ public protocol Parser {
   func parse(json: [Swift.String : Any]) throws -> Self.Result
 }
 public enum BlackstoneChatBotError : Swift.Error {
-  case failedToInitiateConversation(error: Swift.Error)
-  case failedToSendActivity(error: Swift.Error)
+  case failedToInitiateConversation(error: any Swift.Error)
+  case failedToSendActivity(error: any Swift.Error)
   case failedToParseMessage(text: Swift.String)
   case parsingFailed(json: [Swift.String : Any], context: Swift.String)
   case unexpectedJSON(context: Swift.String)
-  case failedToReconnectToConversation(error: Swift.Error)
-  case failedToRefreshConversationToken(error: Swift.Error)
+  case failedToReconnectToConversation(error: any Swift.Error)
+  case failedToRefreshConversationToken(error: any Swift.Error)
   case conversationDoesNotExist
 }
 public protocol Connector : BSChatBotClient.URLRequestConvertible {
@@ -259,6 +260,8 @@ extension BSChatBotClient.HTTPHeaders : Swift.ExpressibleByArrayLiteral {
 }
 extension BSChatBotClient.HTTPHeaders : Swift.Sequence {
   public func makeIterator() -> Swift.IndexingIterator<[BSChatBotClient.HTTPHeader]>
+  public typealias Element = Swift.IndexingIterator<[BSChatBotClient.HTTPHeader]>.Element
+  public typealias Iterator = Swift.IndexingIterator<[BSChatBotClient.HTTPHeader]>
 }
 extension BSChatBotClient.HTTPHeaders : Swift.Collection {
   public var startIndex: Swift.Int {
@@ -271,10 +274,8 @@ extension BSChatBotClient.HTTPHeaders : Swift.Collection {
     get
   }
   public func index(after i: Swift.Int) -> Swift.Int
-  public typealias Element = BSChatBotClient.HTTPHeader
   public typealias Index = Swift.Int
   public typealias Indices = Swift.DefaultIndices<BSChatBotClient.HTTPHeaders>
-  public typealias Iterator = Swift.IndexingIterator<[BSChatBotClient.HTTPHeader]>
   public typealias SubSequence = Swift.Slice<BSChatBotClient.HTTPHeaders>
 }
 extension BSChatBotClient.HTTPHeaders : Swift.CustomStringConvertible {
@@ -375,8 +376,8 @@ public class BlackstoneChatBotClient {
   }
   public static var logLevel: BSChatBotClient.BlackstoneChatBotClient.LogLevel
   public static func configure(withAccessToken accessToken: Swift.String)
-  weak public var delegate: BSChatBotClient.BlackstoneChatBotClientDelegate?
-  public init(parsingEngine: BSChatBotClient.ParsingEngine)
+  weak public var delegate: (any BSChatBotClient.BlackstoneChatBotClientDelegate)?
+  public init(parsingEngine: any BSChatBotClient.ParsingEngine)
   public func disconnect()
   public func reconnectToWebSocket()
   public func startConversation()
@@ -389,11 +390,11 @@ extension BSChatBotClient.BlackstoneChatBotClient : Starscream.WebSocketDelegate
   public func didReceive(event: Starscream.WebSocketEvent, client: Starscream.WebSocket)
 }
 public protocol ParameterEncoding {
-  func encode(_ urlRequest: BSChatBotClient.URLRequestConvertible, with parameters: [Swift.String : Any]?) throws -> Foundation.URLRequest
+  func encode(_ urlRequest: any BSChatBotClient.URLRequestConvertible, with parameters: [Swift.String : Any]?) throws -> Foundation.URLRequest
 }
 public struct AnyEncodable : Swift.Encodable {
   public init<T>(_ wrapped: T) where T : Swift.Encodable
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public enum ActivityType {
   case message(text: Swift.String? = nil, object: BSChatBotClient.AnyEncodable? = nil)
@@ -404,7 +405,7 @@ public enum ActivityType {
 }
 public struct Activity : Swift.Encodable {
   public let type: BSChatBotClient.ActivityType
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public init(locale: Swift.String, type: BSChatBotClient.ActivityType)
 }
 extension BSChatBotClient.Future where Value == BSChatBotClient.Response {
